@@ -1,0 +1,109 @@
+
+.navbar-custom {
+    min-height: $header-height;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+    .navbar-header {
+        .navbar-brand {
+            font-weight: bold;
+            color: $white-color;
+            font-size: 34px;
+            -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+            span {
+                color: $maroon-color; 
+                @extend .color-set;
+            }
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                color: $white-color;
+                text-transform: uppercase;
+                -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+                &:hover {
+                    color: $maroon-color;
+                    background: transparent; 
+                    @extend .color-set;
+                }
+            } 
+        }
+        li.active {
+            a { 
+                background: transparent; 
+                @extend .color-set;
+                &:hover {
+                    color: $maroon-color;
+                    background: transparent; 
+                    @extend .color-set;
+                }
+            }
+        } 
+    }
+}
+.fixed-nav {
+    min-height: inherit;
+    padding: 5px 0;
+    background: rgba($white-color, 1); 
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+
+    .navbar-header {
+        .navbar-brand {
+            font-weight: bold;
+            color: $white-color;
+            font-size: 28px; 
+            -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                @extend .color-set;
+                text-transform: uppercase;
+                -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+                &:hover {
+                    color: $maroon-color;
+                    background: transparent; 
+                    color: #606060;
+                }
+            } 
+        }
+        li.active {
+            a { 
+                background: transparent; 
+                @extend .color-set;
+                &:hover {
+                    color: $maroon-color;
+                    background: transparent; 
+                    @extend .color-set;
+                }
+            }
+        } 
+    }
+}

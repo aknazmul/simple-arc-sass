@@ -1,0 +1,61 @@
+.color-set {
+    .theme-default &{
+        color: $light-blue-color;
+    }
+    .theme-dark-blue &{
+        color: $dip-blue-color;
+    }
+    .theme-orange &{
+        color: $orange-color;
+    }
+    .theme-purple &{
+        color: $purple-color;
+    } 
+    .theme-maroon &{
+        color: $maroon-color;
+    } 
+    .theme-green &{
+        color: $green-color;
+    } 
+}
+
+.bg-color-set {
+    .theme-default &{
+        background: $light-blue-color;
+    }
+    .theme-dark-blue &{
+        background: $dip-blue-color;
+    }
+    .theme-orange &{
+        background: $orange-color;
+    }
+    .theme-purple &{
+        background: $purple-color;
+    } 
+    .theme-maroon &{
+        background: $maroon-color;
+    } 
+    .theme-green &{
+        background: $green-color;
+    } 
+}
+.hover-bg-color-set {
+    .theme-default &{
+        background: darken($light-blue-color, 3%);
+    }
+    .theme-dark-blue &{ 
+        background: darken($dip-blue-color, 3%);
+    }
+    .theme-orange &{ 
+        background: darken($orange-color, 3%);
+    }
+    .theme-purple &{ 
+        background: darken($purple-color, 3%);
+    } 
+    .theme-maroon &{ 
+        background: darken($maroon-color, 3%);
+    } 
+    .theme-green &{ 
+        background: darken($green-color, 3%);
+    } 
+}
